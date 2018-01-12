@@ -1,3 +1,4 @@
-def my_collect(array)
-
+def my_collect(array) do |language, student|
+  language.upcase
+  student.split(" ").first
 end
